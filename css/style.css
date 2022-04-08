@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Arial Rounded MT Bold";
+}
+a{
+    text-decoration: none;
+}
+/*Utality Classes */
+.container{
+    padding: 0 2em;
+}
+p{
+    margin: 0.75em 0;
+}
+.text-center{
+    text-align: center;
+}
+.text-primary{
+    color: #93cb52;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-primary{
+    background-color: #93cb52;
+}
+.l-heading{
+    font-size: 4em;
+    margin-bottom: 0.75em;
+    line-height: 1.1em;
+}
+.m-heading{
+    font-size: 2em;
+    margin-bottom: 0.75em;
+    line-height: 1.1em;
+}
+.s-heading{
+    font-size: 1.3em;
+    margin-bottom: 2em;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: #7ab436;
+}
+.btn-dark{
+    background: #333;
+}
+/*----------------------Navbar-----------------*/
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    padding: 1em;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a{
+    color: #fff;
+    padding: 0.75em;
+    margin: 0 0.25em;
+}
+#navbar ul li a:hover{
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+/*-------------------------Header--------------*/
+#showcase{
+    background-image: url("../img/showcase.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/*--------------------------What---------------------*/
+#what{
+    padding: 1.5em 0;
+}
+#what .items{
+    display: flex;
+    padding: 1rem;
+}
+#what .items .item{
+    flex: 1;
+    text-align: center;
+    padding: 1em;
+}
+#what .items .item i{
+    background-color: #93cb52;
+    padding: 1em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+/*-------------------------------Who Section----------------------*/
+#who{
+    display: flex;
+}
+#who div{
+    flex: 1;
+}
+#who .who-img{
+    background-image: url("../img/people.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#who .who-text{
+    padding: 2em;
+}
+.list{
+    margin: 0.5em 0;
+    list-style: none;
+}
+.list li{
+    padding: 0.5em 0;
+    border-bottom: 1px dotted #444;
+}
+/*--------------------------Clients-------------------*/
+#clients{
+    padding: 1.5em 0;
+}
+#clients .items{
+    display: flex;
+    padding: 1.5em 0;
+}
+#clients .items img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+/*---------------------------Contact--------------------*/
+#contact{
+    display: flex;
+}
+#contact .contact-form,#contact .map{
+    flex: 1;
+}
+#contact .contact-form{
+    padding: 2em;
+    color: #fff;
+}
+#contact .contact-form .form-group{
+    margin: 0.75em;
+}
+#contact .contact-form label{
+    display: block;
+}
+#contact .contact-form input,
+#contact .contact-form textarea{
+    width: 100%;
+    padding: 0.5em;
+}
+#main-footer{
+    padding: 1.5em 0;
+}
+
+
